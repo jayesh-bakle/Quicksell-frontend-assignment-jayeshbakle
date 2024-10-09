@@ -1,6 +1,6 @@
 import Card from "../../Card/Card";
 import StatusState from "./StatusState";
-import ColHeaderIcon from "../../DashboardLayout/ColHeaderIcon";
+import ColHeaderIcon from "../../DashBoardLayout/ColHeaderIcon";
 const Status = (props) => {
   const { data, sortingOption, userName } = props;
 
