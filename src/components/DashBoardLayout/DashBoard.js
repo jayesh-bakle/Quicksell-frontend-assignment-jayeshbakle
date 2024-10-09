@@ -16,7 +16,6 @@ const DashBoard = (props) => {
     statusObjects[status] = [];
   });
   
-  // Initialize user ID, priority, and status arrays
   if (props.data !== null) {
     props.data.users.forEach(({ id, name, available }) => {
       userName[id] = { name, available };
@@ -26,7 +25,6 @@ const DashBoard = (props) => {
       const priority = ticket.priority;
       const status = ticket.status;
 
-      // Initialize user ID, priority, and status arrays if they don't exist
       if (!userIdObjects[userId]) {
         userIdObjects[userId] = [];
       }
@@ -36,8 +34,6 @@ const DashBoard = (props) => {
       if (!statusObjects[status]) {
         statusObjects[status] = [];
       }
-
-      // Push the ticket to the corresponding user ID, priority, and status arrays
       userIdObjects[userId].push(ticket);
       priorityObjects[priority].push(ticket);
       statusObjects[status].push(ticket);

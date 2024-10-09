@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../../Card/Card";
 import UserProfile from "./UserProfile";
 import "./Users.css";
-import ColHeaderIcon from "../../DashBoardLayout/ColHeaderIcon";
+import ColHeaderIcon from "../../DashBoardLayout/HeaderIcon";
 
 const Users = (props) => {
   const { data, userName, sortingOption } = props;

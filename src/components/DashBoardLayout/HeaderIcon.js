@@ -1,7 +1,7 @@
-import "./ColHeaderIcon.css"
+import "./HeaderIcon.css"
 import ThreeDots from "../../images/3 dot menu.svg"
 import Plus from "../../images/add.svg"
-const ColHeaderIcon = () => {
+const HeaderIcon = () => {
   return (
     <>
       <div className="colHeaderIcon">
@@ -11,4 +11,4 @@ const ColHeaderIcon = () => {
     </>
   );
 };
-export default ColHeaderIcon;
+export default HeaderIcon;

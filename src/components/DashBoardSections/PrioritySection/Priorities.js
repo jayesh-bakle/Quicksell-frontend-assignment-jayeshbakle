@@ -1,5 +1,5 @@
 import Card from "../../Card/Card";
-import ColHeaderIcon from "../../DashBoardLayout/ColHeaderIcon"
+import ColHeaderIcon from "../../DashBoardLayout/HeaderIcon"
 import PriorityLevel from "./PriorityLevel";
 
 const Priorities = (props) => {
