@@ -3,7 +3,7 @@ import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { BsSliders2 } from "react-icons/bs";
-import DashBoard from "./DashboardLayout/DashBoard";
+import DashBoard from "../DashBoardLayout/DashBoard";
 
 const Header = (props) => {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
