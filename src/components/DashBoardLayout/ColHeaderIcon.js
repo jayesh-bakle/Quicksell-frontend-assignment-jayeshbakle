@@ -1,12 +1,12 @@
-import { AiOutlinePlus } from "react-icons/ai";
-import { BsThreeDots } from "react-icons/bs";
 import "./ColHeaderIcon.css"
+import ThreeDots from "../../images/3 dot menu.svg"
+import Plus from "../../images/add.svg"
 const ColHeaderIcon = () => {
   return (
     <>
       <div className="colHeaderIcon">
-        <AiOutlinePlus />
-        <BsThreeDots />
+        <img src={Plus} alt="Plus" height={25} width={25}/>
+        <img src={ThreeDots} alt="ThreeDots" height={25} width={25}/>
       </div>
     </>
   );
