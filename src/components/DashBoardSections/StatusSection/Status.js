@@ -10,12 +10,11 @@ const Status = (props) => {
         let tickets = data[status];
 
         if (sortingOption === "title") {
-          // Sort the tickets by title in ascending order
           tickets = tickets
             .slice()
             .sort((a, b) => (a.title < b.title ? -1 : 1));
         } else if (sortingOption === "priority") {
-          // Sort the tickets by priority in descending order
+          
           tickets = tickets.slice().sort((a, b) => b.priority - a.priority);
         }
         return (
