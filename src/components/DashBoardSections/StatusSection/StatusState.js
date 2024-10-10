@@ -10,8 +10,9 @@ const StatusState=({status})=>{
         "Cancelled": <img src={Cancelled} alt="Cancelled" />,
         "Todo": <img src={Todo} alt="Todo" />,
         "Backlog": <img src={Backlog} alt="Backlog" />,
-        "In progress": <img src={InProgress} alt="Your SVG" />,
+        "In progress": <img src={InProgress} alt="In progress" />,
       };
+
     return (
         <>
         <span className="statusIcon">

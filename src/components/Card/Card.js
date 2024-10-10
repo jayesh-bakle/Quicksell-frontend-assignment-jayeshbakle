@@ -42,7 +42,6 @@ const Card = (props) => {
             {ticket.tag.map((tag) => (
               <div className="tag" key={tag}>
                 <BsFillCircleFill size={7}/> <span className="span_tag">{tag}</span>
-                {/* <img src={Display} alt="display" /> */}
               </div>
             ))}
             
